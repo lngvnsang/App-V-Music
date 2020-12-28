@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageViewSearchBaiHat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:id="@+id/textViewSearchTenBaiHat"
+        android:textSize="18sp"
+        android:text="Ten bai hat"
+        android:layout_toRightOf="@id/imageViewSearchBaiHat"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textViewSearchTenCaSi"
+        android:textSize="18sp"
+        android:text="Ten ca si"
+        android:layout_below="@id/textViewSearchTenBaiHat"
+        android:layout_toRightOf="@id/imageViewSearchBaiHat"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/ImageViewSearchLuotThich"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/iconlove"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</RelativeLayout>

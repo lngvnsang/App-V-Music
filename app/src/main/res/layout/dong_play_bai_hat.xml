@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="1"
+            android:id="@+id/textViewIndexBaiHatPlayNhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:text="Tên ca khúc"
+            android:singleLine="true"
+            android:maxWidth="250dp"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/textViewIndexBaiHatPlayNhac"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textViewTenBaiHatPlayNhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#C3C1C1"
+            android:text="Ca Si"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/textViewIndexBaiHatPlayNhac"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/textViewTenBaiHatPlayNhac"
+            android:id="@+id/textViewTenCaSiPlayNhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imageViewBackgroundBanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_background_banner" />
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_alignBottom="@id/imageViewBackgroundBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/imageViewBanner"
+            android:padding="2dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Chắc ai đó sẽ về"
+            android:textSize="17sp"
+            android:id="@+id/textViewTitleBannerSong"
+            android:layout_toRightOf="@id/imageViewBanner"
+            android:layout_alignTop="@id/imageViewBanner"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/imageViewBanner"
+            android:layout_below="@id/textViewTitleBannerSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewNoiDung"
+                android:textColor="#fff"
+                android:text="Chào mừng bạn đến với ca khúc mơi nhất của của Sơn Tùng MTP"
+                android:maxLines="2"
+                android:layout_marginRight="40dp"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
